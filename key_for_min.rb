@@ -3,9 +3,9 @@
 
 def key_for_min_value(hash)
   unless hash.empty?
+    counter = 0
     hash.map do |key, num|
-      
-      end
+      min_num = num if counter == 0
     end
   end
 end
