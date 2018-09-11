@@ -13,5 +13,6 @@ def key_for_min_value(hash)
         min_num = num, min_key = key if num < min_num
         counter +=1
     end
+    return min_key
   end
 end
