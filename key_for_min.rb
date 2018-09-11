@@ -3,7 +3,7 @@
 
 def key_for_min_value(hash)
   unless hash.empty?
-    loop = 0
+    loop_count = 0
     hash.each do |key, num|
       if counter == 0
         min_num = num
