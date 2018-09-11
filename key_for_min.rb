@@ -9,7 +9,7 @@ def key_for_min_value(hash)
         min_num = num
         counter += 1
       else
-
+        counter +=1
     end
   end
 end
