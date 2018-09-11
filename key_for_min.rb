@@ -11,7 +11,7 @@ def key_for_min_value(hash)
         min_num = num
         min_key = key
         counter += 1
-      elsif condition
+      else
        num < min_num
       min_num = num
       min_key = key
