@@ -16,6 +16,7 @@ def key_for_min_value(hash)
         min_key = key
         counter +=1
       end
+    end
     return min_key
   end
   nil
