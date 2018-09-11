@@ -3,12 +3,13 @@
 
 def key_for_min_value(hash)
   unless hash.empty?
-    counter = 0
+    loop = 0
     hash.each do |key, num|
       if counter == 0
         min_num = num
         counter += 1
       else
+
         counter +=1
     end
   end
