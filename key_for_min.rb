@@ -3,9 +3,10 @@
 
 def key_for_min_value(hash)
   unless hash.empty?
-    hash.each_with_index do |(key, num), i|
+    counter = 0
+    hash.each do |key, num|
       min_num = num if counter == 0
-
+      
     end
   end
 end
